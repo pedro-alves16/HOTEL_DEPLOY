@@ -30,3 +30,22 @@ body {
   min-height: 100vh; /* garante que ocupe a tela toda, mesmo com pouco conteúdo */
   overflow-x: hidden; /* evita scroll horizontal indesejado */
 }
+
+.grid_hash {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      #fff 0px,
+      #fff 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #fff 0px,
+      #fff 1px,
+      transparent 1px,
+      transparent 40px
+    );
+  opacity: 0.04;
+}
