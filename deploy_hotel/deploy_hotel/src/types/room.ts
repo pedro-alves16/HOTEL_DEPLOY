@@ -1,7 +1,9 @@
-export interface Quarto {
+export type CategoriaQuarto = "STANDARD" | "LUXO" | "SUITE";
+
+export type Quarto = {
   id: string;
-  numero: string;
+  numero: number;
   precoPorNoite: number;
-  categoria: "Standard" | "Luxo" | "Suite";
+  categoria: CategoriaQuarto;
   disponivel: boolean;
-}
+};

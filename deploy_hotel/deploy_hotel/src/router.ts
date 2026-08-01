@@ -1,7 +1,9 @@
 import { renderHome } from "./pages/home";
+import { renderLogin } from "./pages/login";
 
 export const routes: Record<string, (app: HTMLDivElement) => void> = {
   "/": renderHome,
+  "/login": renderLogin,
 };
 
 export function resolve(app: HTMLDivElement): void {

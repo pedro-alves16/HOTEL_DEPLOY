@@ -33,6 +33,13 @@ export function navbar(): string {
 
           <p>CONFIRMAÇÃO</p>
         </div>
+
+        
       </div>
+      <button
+          class="w-30 py-2.5 border-[1.5px] border-ink rounded bg-transparent font-sans text-[0.85rem] font-medium text-ink hover:bg-ink hover:text-white transition-all"
+        id="loginButton">
+          ENTRAR
+        </button>
     </header>`;
 }
