@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cores Personalizadas */
+  --color-ink: #1a1814;
+  --color-stone-hotel: #6b6560;
+  --color-fog: #c9c4bc;
+  --color-linen: #f2efe9;
+  --color-paper: #fafaf7;
+  --color-gold: #b8935a;
+  --color-gold-light: #f0e6d3;
+  --color-success: #3d7a5f;
+  --color-danger: #8b3a3a;
+  --color-danger-light: #fbf0f0;
+  --color-danger-border: #e8c5c5;
+
+  /* Fontes Personalizadas */
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "DM Sans", sans-serif;
+  --font-mono: "DM Mono", monospace;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  min-height: 100vh; /* garante que ocupe a tela toda, mesmo com pouco conteúdo */
+  overflow-x: hidden; /* evita scroll horizontal indesejado */
+}
+
+.grid_hash {
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      #fff 0px,
+      #fff 1px,
+      transparent 1px,
+      transparent 40px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      #fff 0px,
+      #fff 1px,
+      transparent 1px,
+      transparent 40px
+    );
+  opacity: 0.04;
+}
